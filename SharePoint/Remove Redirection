@@ -1,0 +1,5 @@
+#Connect to SharePoint Online Admin Center
+Connect-SPOService https://test-admin.sharepoint.com/
+ 
+#Remove the Redirect site
+Remove-SPOSite -Identity https://test.sharepoint.com/sites/Compliance
